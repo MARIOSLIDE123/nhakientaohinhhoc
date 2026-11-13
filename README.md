@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Thử Tài Nhà Kiến Tạo Hình Học — Toán Lớp 4
 
-# Run and deploy your AI Studio app
+Ứng dụng học tập tương tác môn Toán lớp 4 (**Bài 31 – Kết nối tri thức với cuộc sống**): Khám phá thế giới hình bình hành và hình thoi cùng Robot qua 4 chặng thử thách tương tác.
 
-This contains everything you need to run your app locally.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FMARIOSLIDE123%2Fnhakientaohinhhoc)
 
-View your app in AI Studio: https://ai.studio/apps/0edacf92-aaa9-4c3f-b50c-b68f76dc16df
+---
 
-## Run Locally
+## 🚀 Công nghệ sử dụng
+- **React 19** + **TypeScript**
+- **Vite 6**
+- **Tailwind CSS v4**
+- **Lucide Icons**
+- **Web Audio API & Web Speech API**
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Cài đặt & Chạy cục bộ
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Cài đặt thư viện:**
+   ```bash
+   npm install
+   ```
+
+2. **Chạy máy chủ phát triển:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Kiểm tra và đóng gói (Build):**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🌐 Triển khai lên Vercel (Deployment)
+
+1. Nhấn nút **Deploy with Vercel** ở trên, hoặc truy cập [Vercel Dashboard](https://vercel.com/new).
+2. Chọn repository **`MARIOSLIDE123/nhakientaohinhhoc`**.
+3. Cấu hình tự động nhận diện:
+   - **Framework Preset**: `Vite`
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+4. Nhấn **Deploy**.
